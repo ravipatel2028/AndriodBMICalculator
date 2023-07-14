@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#7E797A"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI CALCULATOR"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="#aabbcc"
+         />
+    <EditText
+        android:id="@+id/height_editview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:hint="ENTER HIEGHT(cm)"
+        android:textColorHint="#aabbaa"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/weight_editview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:hint="ENTER WIEGHT(kg)"
+        android:textColorHint="#aabbaa"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/calculate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calculate"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:background="#511228"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/results_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULT PENDING ...."
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#aabbcc"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
